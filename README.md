@@ -1,2 +1,2 @@
 # FreeSkills
-Skill Development Application for upskilling menial workers
+Skill Development Android Application for upskilling menial workers
