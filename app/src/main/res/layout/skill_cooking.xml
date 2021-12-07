@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.justkava.lectures">
+
+    <LinearLayout
+        android:id="@+id/Lecture1"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:layout_width="150dp"
+            android:onClick="Lectur1"
+            android:text="Lecture 1"></TextView>
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.14"
+            android:text="completed"
+            android:textColor="#f0f0f0"
+            android:textSize="12sp" />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:layout_width="wrap_content"
+            android:onClick="Resource1"
+            android:text="    Resources"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Lecture2"
+        style="@style/CategoryStyle"
+        android:background="#0000f0"
+        android:orientation="horizontal"
+
+        android:weightSum="1">
+        <TextView
+            android:layout_width="150dp"
+            style="@style/CategoryStyle"
+            android:onClick="Lecture2"
+            android:text="Lecture 2">
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="completed"
+            android:textColor="#f0f0f0"
+            android:textSize="12sp"
+            android:layout_weight="0.14"/>
+        <TextView
+            style="@style/CategoryStyle"
+            android:layout_width="wrap_content"
+            android:onClick="Resource1"
+            android:text="    Resources"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Lecture3"
+        style="@style/CategoryStyle"
+
+        android:background="@color/category_phrases"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="150dp"
+            style="@style/CategoryStyle"
+            android:onClick="Lecture3"
+            android:text="Lecture 3">
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="completed"
+            android:textColor="#f0f0f0"
+            android:textSize="12sp"
+            android:layout_weight="0.14"/>
+        <TextView
+            style="@style/CategoryStyle"
+            android:layout_width="wrap_content"
+            android:onClick="Resource1"
+            android:text="    Resources"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Lecture4"
+        style="@style/CategoryStyle"
+
+        android:background="#0000f0"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="150dp"
+            style="@style/CategoryStyle"
+            android:onClick="Lecture4"
+            android:text="Lecture 4">
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/checkbox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="completed"
+            android:textColor="#f0f0f0"
+            android:textSize="12sp"
+            android:layout_weight="0.14"/>
+        <TextView
+            style="@style/CategoryStyle"
+            android:layout_width="wrap_content"
+            android:onClick="Resource1"
+            android:text="    Resources"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Lecture5"
+        style="@style/CategoryStyle"
+
+        android:background="@color/category_phrases"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="150dp"
+            style="@style/CategoryStyle"
+            android:onClick="Lecture5"
+            android:text="Lecture 5">
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/checkbox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="completed"
+            android:textColor="#f0f0f0"
+            android:textSize="12sp"
+            android:layout_weight="0.14"/>
+        <TextView
+            style="@style/CategoryStyle"
+            android:layout_width="wrap_content"
+            android:onClick="Resource1"
+            android:text="    Resources"
+            ></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Lecture6"
+        style="@style/CategoryStyle"
+        android:background="#0000f0"
+        android:orientation="horizontal"
+
+        android:weightSum="1">
+        <TextView
+            android:layout_width="150dp"
+            style="@style/CategoryStyle"
+            android:onClick="Lecture6"
+            android:text="Lecture 6">
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/checkbox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="completed"
+            android:textColor="#f0f0f0"
+            android:textSize="12sp"
+            android:layout_weight="0.14"/>
+        <TextView
+            style="@style/CategoryStyle"
+            android:layout_width="wrap_content"
+            android:onClick="Resource1"
+            android:text="    Resources"
+            ></TextView>
+
+    </LinearLayout>
+</LinearLayout>

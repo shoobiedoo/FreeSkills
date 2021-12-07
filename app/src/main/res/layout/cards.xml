@@ -1,0 +1,318 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              android:weightSum="1"
+              android:orientation="vertical"
+              tools:context="com.example.android.justkava.cooking">
+    <!-- A CardView that contains a TextView -->
+    <!-- A CardView that contains a TextView -->
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/card_view1"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+
+        card_view:cardBackgroundColor="#F0554A"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/cooking"
+                android:tag="image_tag"
+                />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/textViewName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="Cooking"
+                    android:onClick="car"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                <TextView
+                    android:id="@+id/textViewVersion1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="Taught by:Nisha Madhulika"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        card_view:cardBackgroundColor="#61E6B1"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:tag="image_tag"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/sewing"
+                />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/textViewName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="Sewing"
+                    android:onClick="car"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                <TextView
+                    android:id="@+id/textViewVersion2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="Taught by:Haritya Shah"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/card_view3"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        card_view:cardBackgroundColor="#FFEB3B"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/bank"
+            android:tag="image_tag"
+            />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/textViewName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Using the Bank"
+                android:onClick="car"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textViewVersion3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Taught by:Aditya Mishra"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view4"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        card_view:cardBackgroundColor="#64F3DD"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:tag="image_tag"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/paytm"
+                />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/textViewName4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="Paytm and other e-wallets"
+                    android:onClick="car"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                <TextView
+                    android:id="@+id/textViewVersion4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="Taught by: Divya Nadar"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <!-- A CardView that contains a TextView -->
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/card_view5"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        card_view:cardBackgroundColor="#F0554A"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/firstaid"
+                android:onClick="car"
+                android:tag="image_tag"
+                />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/textViewName5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="First Aid"
+                    android:onClick="car"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                <TextView
+                    android:id="@+id/textViewVersion5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="Taught by: Dr.Krisha Savla"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>
